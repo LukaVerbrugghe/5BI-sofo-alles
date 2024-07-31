@@ -52,6 +52,12 @@
     <Compile Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.Designer.cs">
       <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
     </Compile>
+    <Compile Include="01_InleidingProgrammeren\Uitleg\frmInleidingPdf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01_InleidingProgrammeren\Uitleg\frmInleidingPdf.Designer.cs">
+      <DependentUpon>frmInleidingPdf.cs</DependentUpon>
+    </Compile>
     <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     <EmbeddedResource Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.resx">
       <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="01_InleidingProgrammeren\Uitleg\frmInleidingPdf.resx">
+      <DependentUpon>frmInleidingPdf.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.resx">
       <DependentUpon>frmHoofdstuk2Navigatie.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,6 +164,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -169,6 +179,110 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 200642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 201802.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202235.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202519.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202608.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202652.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 202753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203215.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203309.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203318.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203338.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203343.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203352.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203413.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203508.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203515.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203521.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203528.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203534.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203539.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203547.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203554.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203602.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203609.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203615.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203628.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203634.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 203639.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-07-31 204911.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

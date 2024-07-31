@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using prj5BISofoAlles._01_InleidingProgrammeren.Uitleg;
 
 namespace prj5BISofoAlles._01_InleidingProgrammeren
 {
@@ -15,6 +16,12 @@ namespace prj5BISofoAlles._01_InleidingProgrammeren
         public frmHoofdstuk1Navigatie()
         {
             InitializeComponent();
+        }
+
+        private void btnInleidingProgrammerenPwp_Click(object sender, EventArgs e)
+        {
+            frmInleidingPdf frmInleidingPdf = new frmInleidingPdf();
+            frmInleidingPdf.ShowDialog();
         }
     }
 }
