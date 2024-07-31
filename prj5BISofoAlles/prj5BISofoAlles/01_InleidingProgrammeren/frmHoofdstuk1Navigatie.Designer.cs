@@ -28,14 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // fileSystemWatcher1
-            // 
-            this.fileSystemWatcher1.EnableRaisingEvents = true;
-            this.fileSystemWatcher1.SynchronizingObject = this;
             // 
             // frmHoofdstuk1Navigatie
             // 
@@ -44,12 +37,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "frmHoofdstuk1Navigatie";
             this.Text = "Hoofdstuk 1 - Navigatie";
-            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }
