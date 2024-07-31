@@ -49,6 +49,7 @@
             this.btnHoofdstuk1.TabIndex = 0;
             this.btnHoofdstuk1.Text = "01_Inleiding programmeren";
             this.btnHoofdstuk1.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk1.Click += new System.EventHandler(this.btnHoofdstuk1_Click);
             // 
             // btnHoofdstuk2
             // 
@@ -59,6 +60,7 @@
             this.btnHoofdstuk2.TabIndex = 0;
             this.btnHoofdstuk2.Text = "02_Variabelen en constanten - Interactie met de gebruiker";
             this.btnHoofdstuk2.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk2.Click += new System.EventHandler(this.btnHoofdstuk2_Click);
             // 
             // btnHoofdstuk3
             // 
@@ -69,6 +71,7 @@
             this.btnHoofdstuk3.TabIndex = 0;
             this.btnHoofdstuk3.Text = "03_Ingebouwde procedures en functies";
             this.btnHoofdstuk3.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk3.Click += new System.EventHandler(this.btnHoofdstuk3_Click);
             // 
             // btnHoofdstuk4
             // 
@@ -79,6 +82,7 @@
             this.btnHoofdstuk4.TabIndex = 0;
             this.btnHoofdstuk4.Text = "04_Controlestructuren";
             this.btnHoofdstuk4.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk4.Click += new System.EventHandler(this.btnHoofdstuk4_Click);
             // 
             // btnHoofdstuk5
             // 
@@ -89,6 +93,7 @@
             this.btnHoofdstuk5.TabIndex = 0;
             this.btnHoofdstuk5.Text = "05_Zelfgedefinieerde functies en procedures";
             this.btnHoofdstuk5.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk5.Click += new System.EventHandler(this.btnHoofdstuk5_Click);
             // 
             // btnHoofdstuk6
             // 
@@ -99,6 +104,7 @@
             this.btnHoofdstuk6.TabIndex = 0;
             this.btnHoofdstuk6.Text = "06_Timer objecten";
             this.btnHoofdstuk6.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk6.Click += new System.EventHandler(this.btnHoofdstuk6_Click);
             // 
             // btnHoofdstuk7
             // 
@@ -109,6 +115,7 @@
             this.btnHoofdstuk7.TabIndex = 0;
             this.btnHoofdstuk7.Text = "07_Arrays";
             this.btnHoofdstuk7.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk7.Click += new System.EventHandler(this.btnHoofdstuk7_Click);
             // 
             // btnHoofdstuk8
             // 
@@ -119,6 +126,7 @@
             this.btnHoofdstuk8.TabIndex = 0;
             this.btnHoofdstuk8.Text = "08_Klassen en objecten";
             this.btnHoofdstuk8.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk8.Click += new System.EventHandler(this.btnHoofdstuk8_Click);
             // 
             // btnHoofdstuk9
             // 
@@ -129,6 +137,7 @@
             this.btnHoofdstuk9.TabIndex = 0;
             this.btnHoofdstuk9.Text = "09_Foutafhandeling";
             this.btnHoofdstuk9.UseVisualStyleBackColor = true;
+            this.btnHoofdstuk9.Click += new System.EventHandler(this.btnHoofdstuk9_Click);
             // 
             // btnExtraOefeningen
             // 
@@ -139,6 +148,7 @@
             this.btnExtraOefeningen.TabIndex = 0;
             this.btnExtraOefeningen.Text = "Extra Oefeningen";
             this.btnExtraOefeningen.UseVisualStyleBackColor = true;
+            this.btnExtraOefeningen.Click += new System.EventHandler(this.btnExtraOefeningen_Click);
             // 
             // frmNavigatie
             // 

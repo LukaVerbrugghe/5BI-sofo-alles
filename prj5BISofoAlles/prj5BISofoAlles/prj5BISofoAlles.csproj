@@ -46,6 +46,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk2Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk3Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04_Controlestructuren\frmHoofdstuk4Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04_Controlestructuren\frmHoofdstuk4Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk4Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05_ZelfgedefinieerdeFunctiesEnProcedures\frmHoofdstuk5Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05_ZelfgedefinieerdeFunctiesEnProcedures\frmHoofdstuk5Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk5Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06_TimerObjecten\frmHoofdstuk6Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06_TimerObjecten\frmHoofdstuk6Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk6Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="07_Arrays\frmHoofdstuk7Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07_Arrays\frmHoofdstuk7Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk7Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="08_KlassenEnObjecten\frmHoofdstuk8Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08_KlassenEnObjecten\frmHoofdstuk8Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk8Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="09_Foutafhandeling\frmHoofdstuk9Navigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09_Foutafhandeling\frmHoofdstuk9Navigatie.Designer.cs">
+      <DependentUpon>frmHoofdstuk9Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraOefeningen\frmExtraOefeningenNavigatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtraOefeningen\frmExtraOefeningenNavigatie.Designer.cs">
+      <DependentUpon>frmExtraOefeningenNavigatie.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNavigatie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +114,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.resx">
+      <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.resx">
+      <DependentUpon>frmHoofdstuk2Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.resx">
+      <DependentUpon>frmHoofdstuk3Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04_Controlestructuren\frmHoofdstuk4Navigatie.resx">
+      <DependentUpon>frmHoofdstuk4Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05_ZelfgedefinieerdeFunctiesEnProcedures\frmHoofdstuk5Navigatie.resx">
+      <DependentUpon>frmHoofdstuk5Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_TimerObjecten\frmHoofdstuk6Navigatie.resx">
+      <DependentUpon>frmHoofdstuk6Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07_Arrays\frmHoofdstuk7Navigatie.resx">
+      <DependentUpon>frmHoofdstuk7Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_KlassenEnObjecten\frmHoofdstuk8Navigatie.resx">
+      <DependentUpon>frmHoofdstuk8Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09_Foutafhandeling\frmHoofdstuk9Navigatie.resx">
+      <DependentUpon>frmHoofdstuk9Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraOefeningen\frmExtraOefeningenNavigatie.resx">
+      <DependentUpon>frmExtraOefeningenNavigatie.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNavigatie.resx">
       <DependentUpon>frmNavigatie.cs</DependentUpon>
     </EmbeddedResource>
@@ -79,17 +169,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="01_InleidingProgrammeren\" />
-    <Folder Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\" />
-    <Folder Include="03_IngebouwdeProceduresEnFuncties\" />
-    <Folder Include="04_Controlestructuren\" />
-    <Folder Include="05_ZelfgedefinieerdeFunctiesEnProcedures\" />
-    <Folder Include="06_TimerObjecten\" />
-    <Folder Include="07_Arrays\" />
-    <Folder Include="08_KlassenEnObjecten\" />
-    <Folder Include="09_Foutafhandeling\" />
-    <Folder Include="ExtraOefeningen\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
