@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prj5BISofoAlles
 {
-    public partial class Form1 : Form
+    public partial class frmNavigatie : Form
     {
-        public Form1()
+        public frmNavigatie()
         {
             InitializeComponent();
         }
