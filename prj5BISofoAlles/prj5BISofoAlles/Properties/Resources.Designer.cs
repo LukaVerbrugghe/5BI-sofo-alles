@@ -63,6 +63,16 @@ namespace prj5BISofoAlles.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap minion {
+            get {
+                object obj = ResourceManager.GetObject("minion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2024_07_31_200642 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot 2024-07-31 200642", resourceCulture);

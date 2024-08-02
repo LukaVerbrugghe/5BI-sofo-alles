@@ -52,6 +52,12 @@
     <Compile Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.Designer.cs">
       <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
     </Compile>
+    <Compile Include="01_InleidingProgrammeren\Oefeningen\frmOefening1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01_InleidingProgrammeren\Oefeningen\frmOefening1.Designer.cs">
+      <DependentUpon>frmOefening1.cs</DependentUpon>
+    </Compile>
     <Compile Include="01_InleidingProgrammeren\Uitleg\frmBasiscode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.resx">
       <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_InleidingProgrammeren\Oefeningen\frmOefening1.resx">
+      <DependentUpon>frmOefening1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="01_InleidingProgrammeren\Uitleg\frmBasiscode.resx">
       <DependentUpon>frmBasiscode.cs</DependentUpon>
@@ -307,6 +316,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2024-08-02 125507.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\minion.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

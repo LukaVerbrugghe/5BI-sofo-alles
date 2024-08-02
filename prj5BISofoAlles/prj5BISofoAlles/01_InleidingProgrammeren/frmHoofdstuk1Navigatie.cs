@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using prj5BISofoAlles._01_InleidingProgrammeren.Uitleg;
+using prj5BISofoAlles._01_InleidingProgrammeren.Oefeningen;
 
 namespace prj5BISofoAlles._01_InleidingProgrammeren
 {
@@ -34,6 +36,12 @@ namespace prj5BISofoAlles._01_InleidingProgrammeren
         {
             frmExtraVenster frmExtraVenster = new frmExtraVenster();
             frmExtraVenster.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            frmOefening1 frmOefening = new frmOefening1();
+            frmOefening.ShowDialog();
         }
     }
 }
