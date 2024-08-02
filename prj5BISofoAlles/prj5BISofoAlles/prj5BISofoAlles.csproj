@@ -52,6 +52,18 @@
     <Compile Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.Designer.cs">
       <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
     </Compile>
+    <Compile Include="01_InleidingProgrammeren\Uitleg\frmBasiscode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01_InleidingProgrammeren\Uitleg\frmBasiscode.Designer.cs">
+      <DependentUpon>frmBasiscode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_InleidingProgrammeren\Uitleg\frmExtraVenster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01_InleidingProgrammeren\Uitleg\frmExtraVenster.Designer.cs">
+      <DependentUpon>frmExtraVenster.cs</DependentUpon>
+    </Compile>
     <Compile Include="01_InleidingProgrammeren\Uitleg\frmInleidingPdf.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +134,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="01_InleidingProgrammeren\frmHoofdstuk1Navigatie.resx">
       <DependentUpon>frmHoofdstuk1Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_InleidingProgrammeren\Uitleg\frmBasiscode.resx">
+      <DependentUpon>frmBasiscode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_InleidingProgrammeren\Uitleg\frmExtraVenster.resx">
+      <DependentUpon>frmExtraVenster.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="01_InleidingProgrammeren\Uitleg\frmInleidingPdf.resx">
       <DependentUpon>frmInleidingPdf.cs</DependentUpon>
@@ -283,6 +301,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2024-07-31 204911.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-02 125152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-02 125507.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

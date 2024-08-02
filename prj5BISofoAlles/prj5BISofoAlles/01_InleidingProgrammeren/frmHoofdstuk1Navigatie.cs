@@ -23,5 +23,17 @@ namespace prj5BISofoAlles._01_InleidingProgrammeren
             frmInleidingPdf frmInleidingPdf = new frmInleidingPdf();
             frmInleidingPdf.ShowDialog();
         }
+
+        private void btnBasiscode_Click(object sender, EventArgs e)
+        {
+            frmBasiscode frmBasiscode = new frmBasiscode();
+            frmBasiscode.ShowDialog();
+        }
+
+        private void btnExtraVenster_Click(object sender, EventArgs e)
+        {
+            frmExtraVenster frmExtraVenster = new frmExtraVenster();
+            frmExtraVenster.ShowDialog();
+        }
     }
 }
