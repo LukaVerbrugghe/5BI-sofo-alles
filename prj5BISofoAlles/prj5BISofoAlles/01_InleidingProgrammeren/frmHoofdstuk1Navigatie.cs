@@ -40,8 +40,14 @@ namespace prj5BISofoAlles._01_InleidingProgrammeren
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmOefening1 frmOefening = new frmOefening1();
-            frmOefening.ShowDialog();
+            frmOefening1 frmOefening1 = new frmOefening1();
+            frmOefening1.ShowDialog();
+        }
+
+        private void btnOefening2_Click(object sender, EventArgs e)
+        {
+            frmOefening2 frmOefening2 = new frmOefening2();
+            frmOefening2.ShowDialog();
         }
     }
 }

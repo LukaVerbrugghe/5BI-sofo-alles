@@ -63,6 +63,16 @@ namespace prj5BISofoAlles.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap csharp3 {
+            get {
+                object obj = ResourceManager.GetObject("csharp3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap minion {
             get {
                 object obj = ResourceManager.GetObject("minion", resourceCulture);
