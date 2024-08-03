@@ -101,6 +101,12 @@
     <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmInteractie.Designer.cs">
       <DependentUpon>frmInteractie.cs</DependentUpon>
     </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmVarEnConst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmVarEnConst.Designer.cs">
+      <DependentUpon>frmVarEnConst.cs</DependentUpon>
+    </Compile>
     <Compile Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmInteractie.resx">
       <DependentUpon>frmInteractie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmVarEnConst.resx">
+      <DependentUpon>frmVarEnConst.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.resx">
       <DependentUpon>frmHoofdstuk3Navigatie.cs</DependentUpon>

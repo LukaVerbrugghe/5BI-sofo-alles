@@ -24,5 +24,11 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
             frmInteractie frmInteractie = new frmInteractie();
             frmInteractie.ShowDialog();
         }
+
+        private void btnKlassikaal2_Click(object sender, EventArgs e)
+        {
+            frmVarEnConst frmVarEnConst = new frmVarEnConst();
+            frmVarEnConst.ShowDialog();
+        }
     }
 }
