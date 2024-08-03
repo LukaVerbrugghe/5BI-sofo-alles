@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -93,6 +94,12 @@
     </Compile>
     <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.Designer.cs">
       <DependentUpon>frmHoofdstuk2Navigatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmInteractie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmInteractie.Designer.cs">
+      <DependentUpon>frmInteractie.cs</DependentUpon>
     </Compile>
     <Compile Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.cs">
       <SubType>Form</SubType>
@@ -173,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\frmHoofdstuk2Navigatie.resx">
       <DependentUpon>frmHoofdstuk2Navigatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmInteractie.resx">
+      <DependentUpon>frmInteractie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.resx">
       <DependentUpon>frmHoofdstuk3Navigatie.cs</DependentUpon>

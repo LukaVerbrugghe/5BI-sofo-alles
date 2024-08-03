@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.KlassikaleOefeningen;
+
 namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
 {
     public partial class frmHoofdstuk2Navigatie : Form
@@ -15,6 +17,12 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
         public frmHoofdstuk2Navigatie()
         {
             InitializeComponent();
+        }
+
+        private void btnHoofdstuk1_Click(object sender, EventArgs e)
+        {
+            frmInteractie frmInteractie = new frmInteractie();
+            frmInteractie.ShowDialog();
         }
     }
 }
