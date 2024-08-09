@@ -1,6 +1,6 @@
 ﻿namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.Uitleg
 {
-    partial class frmDeclarerenInititialiseren
+    partial class frmInputbox
     {
         /// <summary>
         /// Required designer variable.
@@ -35,22 +35,21 @@
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::prj5BISofoAlles.Properties.Resources.Screenshot_2024_08_09_103030;
+            this.pictureBox1.Image = global::prj5BISofoAlles.Properties.Resources.Screenshot_2024_08_09_111059;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1336, 648);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(685, 127);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // frmDeclarerenInititialiseren
+            // frmInputbox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1336, 648);
+            this.ClientSize = new System.Drawing.Size(685, 127);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "frmDeclarerenInititialiseren";
-            this.Text = "Declareren en initialiseren variabelen";
+            this.Name = "frmInputbox";
+            this.Text = "Gebruik van een inputbox";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

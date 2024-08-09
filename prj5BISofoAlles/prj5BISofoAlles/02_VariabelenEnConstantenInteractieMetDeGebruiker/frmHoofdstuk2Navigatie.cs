@@ -43,5 +43,17 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
             frmDeclarerenInititialiseren frmDeclarerenInitialiseren = new frmDeclarerenInititialiseren();
             frmDeclarerenInitialiseren.ShowDialog();
         }
+
+        private void btnReturnValue_Click(object sender, EventArgs e)
+        {
+            frmReturnValue frmReturnValue = new frmReturnValue();
+            frmReturnValue.ShowDialog();
+        }
+
+        private void btnInputbox_Click(object sender, EventArgs e)
+        {
+            frmInputbox frmInputbox = new frmInputbox();
+            frmInputbox.ShowDialog();
+        }
     }
 }
