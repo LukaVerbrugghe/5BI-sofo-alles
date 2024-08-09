@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.KlassikaleOefeningen;
+using prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.Uitleg;
 
 namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
 {
@@ -29,6 +30,18 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
         {
             frmVarEnConst frmVarEnConst = new frmVarEnConst();
             frmVarEnConst.ShowDialog();
+        }
+
+        private void btnOverzichtDatatypes_Click(object sender, EventArgs e)
+        {
+            frmOverzichtDatatypes frmOverzichtDatatypes = new frmOverzichtDatatypes();
+            frmOverzichtDatatypes.ShowDialog();
+        }
+
+        private void btnDeclarerenInitialiseren_Click(object sender, EventArgs e)
+        {
+            frmDeclarerenInititialiseren frmDeclarerenInitialiseren = new frmDeclarerenInititialiseren();
+            frmDeclarerenInitialiseren.ShowDialog();
         }
     }
 }

@@ -107,6 +107,18 @@
     <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmVarEnConst.Designer.cs">
       <DependentUpon>frmVarEnConst.cs</DependentUpon>
     </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmDeclarerenInititialiseren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmDeclarerenInititialiseren.Designer.cs">
+      <DependentUpon>frmDeclarerenInititialiseren.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOverzichtDatatypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOverzichtDatatypes.Designer.cs">
+      <DependentUpon>frmOverzichtDatatypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +204,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\KlassikaleOefeningen\frmVarEnConst.resx">
       <DependentUpon>frmVarEnConst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmDeclarerenInititialiseren.resx">
+      <DependentUpon>frmDeclarerenInititialiseren.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOverzichtDatatypes.resx">
+      <DependentUpon>frmOverzichtDatatypes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="03_IngebouwdeProceduresEnFuncties\frmHoofdstuk3Navigatie.resx">
       <DependentUpon>frmHoofdstuk3Navigatie.cs</DependentUpon>
@@ -359,6 +377,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-09 102704.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-09 103030.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
