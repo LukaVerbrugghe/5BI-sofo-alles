@@ -16,5 +16,23 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.Oef
         {
             InitializeComponent();
         }
+
+        private void btnPrijsInclBTW_Click(object sender, EventArgs e)
+        {
+            //var
+            double dblPrijsInclBTW = 0;
+            double dblPrijsExclBTW = 0;
+            const int cintBTW = 21;
+
+            //invoer
+            dblPrijsExclBTW = Convert.ToDouble(txtPrijsExclBTW.Text);
+
+            //verwerking
+            dblPrijsInclBTW = dblPrijsExclBTW + (dblPrijsExclBTW / 100 * cintBTW);
+
+            //output
+            lblBTW.Text = "BTW: " + cintBTW.ToString() + "%";
+            lblPrijsInclBTW.Text = "Prijs inclusief BTW: " + Convert.ToString(dblPrijsInclBTW);
+        }
     }
 }
