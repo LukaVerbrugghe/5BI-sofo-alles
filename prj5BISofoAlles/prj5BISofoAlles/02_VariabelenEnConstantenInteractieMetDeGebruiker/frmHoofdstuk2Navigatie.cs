@@ -68,5 +68,11 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
             frmOefening1 frmOefening1 = new frmOefening1();
             frmOefening1.ShowDialog();
         }
+
+        private void btnOefening2_Click(object sender, EventArgs e)
+        {
+            frmOefening2 frmOefening2 = new frmOefening2();
+            frmOefening2.ShowDialog();
+        }
     }
 }
