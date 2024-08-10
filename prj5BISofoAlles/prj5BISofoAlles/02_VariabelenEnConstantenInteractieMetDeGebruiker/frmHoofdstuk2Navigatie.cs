@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.KlassikaleOefeningen;
 using prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.Uitleg;
+using prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker.Oefeningen;
 
 namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
 {
@@ -60,6 +61,12 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
         {
             frmOperatoren frmOperatoren = new frmOperatoren();
             frmOperatoren.ShowDialog();
+        }
+
+        private void btnOefening1_Click(object sender, EventArgs e)
+        {
+            frmOefening1 frmOefening1 = new frmOefening1();
+            frmOefening1.ShowDialog();
         }
     }
 }

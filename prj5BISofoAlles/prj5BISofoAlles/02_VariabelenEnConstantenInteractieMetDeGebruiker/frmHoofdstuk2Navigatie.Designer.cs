@@ -35,6 +35,7 @@
             this.btnReturnValue = new System.Windows.Forms.Button();
             this.btnInputbox = new System.Windows.Forms.Button();
             this.btnOperatoren = new System.Windows.Forms.Button();
+            this.btnOefening1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnKlassikaal1
@@ -114,11 +115,23 @@
             this.btnOperatoren.UseVisualStyleBackColor = true;
             this.btnOperatoren.Click += new System.EventHandler(this.btnOperatoren_Click);
             // 
+            // btnOefening1
+            // 
+            this.btnOefening1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOefening1.Location = new System.Drawing.Point(12, 345);
+            this.btnOefening1.Name = "btnOefening1";
+            this.btnOefening1.Size = new System.Drawing.Size(392, 31);
+            this.btnOefening1.TabIndex = 1;
+            this.btnOefening1.Text = "Oefening 1: BMI";
+            this.btnOefening1.UseVisualStyleBackColor = true;
+            this.btnOefening1.Click += new System.EventHandler(this.btnOefening1_Click);
+            // 
             // frmHoofdstuk2Navigatie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(414, 450);
+            this.Controls.Add(this.btnOefening1);
             this.Controls.Add(this.btnOperatoren);
             this.Controls.Add(this.btnInputbox);
             this.Controls.Add(this.btnReturnValue);
@@ -141,5 +154,6 @@
         private System.Windows.Forms.Button btnReturnValue;
         private System.Windows.Forms.Button btnInputbox;
         private System.Windows.Forms.Button btnOperatoren;
+        private System.Windows.Forms.Button btnOefening1;
     }
 }
