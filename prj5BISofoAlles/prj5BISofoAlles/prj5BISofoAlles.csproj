@@ -119,6 +119,12 @@
     <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmInputbox.Designer.cs">
       <DependentUpon>frmInputbox.cs</DependentUpon>
     </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOperatoren.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOperatoren.Designer.cs">
+      <DependentUpon>frmOperatoren.cs</DependentUpon>
+    </Compile>
     <Compile Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOverzichtDatatypes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmInputbox.resx">
       <DependentUpon>frmInputbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOperatoren.resx">
+      <DependentUpon>frmOperatoren.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="02_VariabelenEnConstantenInteractieMetDeGebruiker\Uitleg\frmOverzichtDatatypes.resx">
       <DependentUpon>frmOverzichtDatatypes.cs</DependentUpon>
@@ -407,6 +416,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2024-08-09 111059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-10 102428.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-08-10 102537.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

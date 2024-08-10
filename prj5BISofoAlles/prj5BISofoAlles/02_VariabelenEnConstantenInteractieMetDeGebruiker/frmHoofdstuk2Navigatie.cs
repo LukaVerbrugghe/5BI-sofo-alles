@@ -55,5 +55,11 @@ namespace prj5BISofoAlles._02_VariabelenEnConstantenInteractieMetDeGebruiker
             frmInputbox frmInputbox = new frmInputbox();
             frmInputbox.ShowDialog();
         }
+
+        private void btnOperatoren_Click(object sender, EventArgs e)
+        {
+            frmOperatoren frmOperatoren = new frmOperatoren();
+            frmOperatoren.ShowDialog();
+        }
     }
 }

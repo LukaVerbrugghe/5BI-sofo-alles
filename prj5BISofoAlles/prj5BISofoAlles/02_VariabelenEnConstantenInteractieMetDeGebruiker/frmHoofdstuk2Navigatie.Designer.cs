@@ -34,6 +34,7 @@
             this.btnDeclarerenInitialiseren = new System.Windows.Forms.Button();
             this.btnReturnValue = new System.Windows.Forms.Button();
             this.btnInputbox = new System.Windows.Forms.Button();
+            this.btnOperatoren = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnKlassikaal1
@@ -102,11 +103,23 @@
             this.btnInputbox.UseVisualStyleBackColor = true;
             this.btnInputbox.Click += new System.EventHandler(this.btnInputbox_Click);
             // 
+            // btnOperatoren
+            // 
+            this.btnOperatoren.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOperatoren.Location = new System.Drawing.Point(12, 271);
+            this.btnOperatoren.Name = "btnOperatoren";
+            this.btnOperatoren.Size = new System.Drawing.Size(392, 31);
+            this.btnOperatoren.TabIndex = 1;
+            this.btnOperatoren.Text = "Operatoren";
+            this.btnOperatoren.UseVisualStyleBackColor = true;
+            this.btnOperatoren.Click += new System.EventHandler(this.btnOperatoren_Click);
+            // 
             // frmHoofdstuk2Navigatie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(414, 450);
+            this.Controls.Add(this.btnOperatoren);
             this.Controls.Add(this.btnInputbox);
             this.Controls.Add(this.btnReturnValue);
             this.Controls.Add(this.btnDeclarerenInitialiseren);
@@ -127,5 +140,6 @@
         private System.Windows.Forms.Button btnDeclarerenInitialiseren;
         private System.Windows.Forms.Button btnReturnValue;
         private System.Windows.Forms.Button btnInputbox;
+        private System.Windows.Forms.Button btnOperatoren;
     }
 }
